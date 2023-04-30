@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>30DaysOfJavaScript:30 </title>
+    <link rel="stylesheet" href="./scripts/style.css">
+</head>
+
+<body>
+   
+    <div id="header">
+        <h1>World Countries Data</h1>
+        <p class="sub" style="font-style: italic;">
+            Currently we have 250 countries
+        </p>
+        <p id ="criteria" style="font-family: Lato, italic;font-size: 100%;">
+        </p>
+    </div>
+    <div id="search">
+        <input type="text" placeholder="Search Country by Name, Capital and Languages,"></input >
+        <div class="menu">
+            <button id = "name" class="searchButton">Name &#8595;</button>
+            <button id = 'capital' class="searchButton">Capital</button>
+            <button id = 'lang' class="searchButton">Language</button>
+            <button id="graphButton" style="color:orange;font-size: 200%;"> 📊 </button>
+        </div>
+    </div>
+    <div id="display">
+    </div>
+    <div id="graph">
+        <div class = 'menu' style="height: 15%; flex-direction: column;background-color: white;max-height: 32vh;">
+            <div class = "menu" style="margin-top: 2%;margin-bottom: 1%;">
+                <button id = "pop" class ="typeButton">Population</button>
+                <button id = "lGraph" class = "typeButton">Languages</button> 
+            </div>
+            <p id="gSub" class = "sub" style="color:black; font-size: 120%;margin-bottom: 1%;">
+                World Populations
+            </p>
+        </div>
+        <div id="gBack">
+        </div>
+    </div>
+    <script src="./scripts/set.js"></script>
+
+</body>
+
+</html>
