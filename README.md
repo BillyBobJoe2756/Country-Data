@@ -10,8 +10,8 @@ in the filtered languages.
 I made this project from scratch in the process of learning Javascript through Asabeneh Yetayeh's challenge course 30-Days of Javascript
 I would reccommend it if you want to learn JS, it is free and pretty useful.
 
-Data on the countries was pulled from the Rest Countries API website. The website is shutting down in May of 2023, so there is a seperate JS file of the data
-as of 4/29/2023 in the OldData.js. To make the website still work, you need to replace the pulling of the raw data in set.js with the array in OldData. Replacing the orgCountries with the new array in OldData should make it work again.
+Data on the countries was pulled from the Rest Countries API website. 
+https://restcountries.com/
 
 Asabeneh's Github Page
 https://github.com/Asabeneh
